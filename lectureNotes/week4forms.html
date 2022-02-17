@@ -16,7 +16,23 @@
             <input type="text" name="orderitem" id="orderitem"><br>
             <label for='specialrequest'>Special Request</label>
             <textarea name="specialrequest" id='specialrequest'></textarea><br>
-            <input type='submit' value="Send Order">
+            <p>How do you want to pay?</p>
+            <label for='instore'>pay in store</label>
+            <input type='radio' id='instore' name='howpay'>
+            <label for='online'>pay online</label>
+            <input type='radio' id='online' name='howpay'><br>
+            <p>Add Condiment</p>
+            <label for='bbq'>Bbq Sauce</label>
+            <input type='checkbox' id="bbq" name="bbq">
+            <label for='ketchup'>Ketchup</label>
+            <input type='checkbox' id="ketchup" name="ketchup"><br>
+            <label for='pickup'>Pickup Time</label>
+            <select id="pickup" name='pickup'>
+                <option value='morning'>Morning</option>
+                <option value='afternoon'>Afternoon</option>
+                <optoion value='evening'>Evening</optoion>
+            </select>
+            <input type='submit' value="Send Order"> <!--input is a void tag, no close-->
         </form>
     </body>
 
