@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+    <h1>Contact</h1>
+    <p>
+        Tyler Thibeau<br>
+        706 Euclid Ave<br>
+        Syracuse, NY 13210<br>
+    </p>
+    <a href="mailto:tjthibea@syr.edu"> Tyler Thibeau's Email</a><br>
+    <a href="https://www.linkedin.com/in/tylerthibeau/" target="_blank"> <img src="../images/logo-sized.png" alt="linkedin account"></a>
+    <a href="https://www.linkedin.com/in/tylerthibeau/" target="_blank"> My LinkedIn Profile</a><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22849.91954535096!2d-76.13995507684793!3d43.03605423806873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f37250d7e5e5%3A0x279831510be78b7c!2s706%20Euclid%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1644258050509!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <h3>Contact me</H3>
+    <form action="https://formspree.io/f/mzbordjz" method="post">
+
+    <label for='fname'>First Name:</label><br>
+    <input type="text" id="fname" name='fname'><br>
+    
+
+    <label for='fname'>Last Name:</label><br>
+    <input type="text" id="lname" name='lname'><br>
+
+    <label for='urgency1'>Level of Urgency:  </label>
+    <input type="radio" id="urgency1" name="urgency" value="low">
+    <label for="urgency1">Low Urgency</label>
+
+    <input type="radio" id="urgency2" name="urgency" value="Medium">
+    <label for="urgency2">Medium Urgency</label>
+
+    <input type="radio" id="urgency3" name="urgency" value="High">
+    <label for="urgency3">High Urgency</label><br><br>
+
+    <label for = "Messages">Message:</label><br>
+    <textarea id = "Messages" name="Messages" rows="4" cols="50"></textarea><br>
+
+    <input type="submit" value="Send Message">
+    </form>
+    </body>
+</html>
