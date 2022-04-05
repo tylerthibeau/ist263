@@ -8,3 +8,12 @@ nav {padding: 10px;}
 nav {margin-bottom: 30px;}
 nav a {color: #FFFFFF;}
 nav a:hover {background-color: #F1C77B;}
+@media only screen and (max-width: 800px) {
+    nav a {
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+        }
+    span {display: none;}
+    }
+    
