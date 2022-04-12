@@ -16,4 +16,13 @@ nav a:hover {background-color: #F1C77B;}
         }
     span {display: none;}
     }
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: #DE9548;
+    padding: 5px;
+
+    }
+    #skip:focus {
+        left: 10px}
     
