@@ -19,9 +19,9 @@ nav a:hover {background-color: #F1C77B;}
 #skip {
     position: absolute;
     left: -999px;
-    background-color: #DE9548;
-    color: #00458f;
-    border: #DE9548;
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000;
     padding: 5px;
 
     }
