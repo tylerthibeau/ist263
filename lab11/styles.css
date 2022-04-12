@@ -3,9 +3,9 @@ link {color: #DE9548;}
 a {color: #DE9548;}
 body {color: #F1C77B;}
 h1, h2 {color: #DE9548;}
-nav {background-color: #607D9D;}
+nav {background-color: #31649b;}
 nav {padding: 10px;}
-nav {margin-bottom: 30px; font-size: 4em;}
+nav {margin-bottom: 30px;}
 nav a {color: #FFFFFF;}
 nav a:hover {background-color: #F1C77B;}
 @media only screen and (max-width: 800px) {
