@@ -51,7 +51,7 @@ header {font-size: 2em;}
         margin: 10px;
     }
     header img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
     }
 }
