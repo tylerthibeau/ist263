@@ -10,10 +10,24 @@
     <title>Snowboard Types</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        @media only screen and (max-width: 1000px) {
+        .snowboardtypes, .allmountain, .freestyle, .alpine, .camber, .fcamber, .rrcamber, .mcamber {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+        }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+
+        }
         h2 {text-align: center;
-            font-size: 3em;}
+            font-size: 2.5em;}
         main h3{
-            font-size: 2em;
+            font-size: 1.5em;
         }
         .snowboardtypes {
             display: flex;
@@ -54,16 +68,16 @@
             padding: 20px;
             border-radius: 20px;
             border: 4px solid white;
-            margin-left: 150px;
-            margin-right: 150px;  
+            margin-left: 100px;
+            margin-right: 100px;  
         }
         .fcamber, .mcamber{
             background-color: rgb(102, 155, 173);
             padding: 20px;
             border-radius: 20px;
             border: 4px solid white;
-            margin-left: 150px;
-            margin-right: 150px;  
+            margin-left: 100px;
+            margin-right: 100px;  
         }
     </style>
 </head>
