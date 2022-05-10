@@ -1,0 +1,88 @@
+main {
+    border: cornflowerblue 3px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: lightgray;
+    font-size: 1em;
+    
+}
+
+.intro {
+    display: flex;
+    border: cornflowerblue 3px solid;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: lightgray;
+    padding: 20px;
+}
+.intro2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 100px;
+
+}
+
+.intro nav {
+    background-color: lightblue;
+    border: 4px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+main h1, main h2, main h3, header h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+main {
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+
+header {font-size: 2em;}
+@media only screen and (max-width: 1000px) {
+    header {
+        font-size: 2.5vw;
+    }
+    .intro2{
+        margin-right: 20px;
+        margin: 10px;
+    }
+    header img {
+        max-width: 70%;
+        height: auto;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .introimg {
+        text-align:  center;
+    }
+}
+
+
+  
+  main, .intro {
+      background: linear-gradient(-45deg, #ffffff,  #00bbff);
+      background-size: 400% 400%;
+      animation: gradient 6s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
