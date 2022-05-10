@@ -9,14 +9,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowboarding Mountains</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel = "shortcut icon" type="image/x-icon" href="images/favicon-32x32.png">
     <style>
-        .start {text-align: center;}
-        .lab, .greek{
+            @media only screen and (max-width: 1000px) {
+            .greek, .vail, .lab, .bristol, .jacksonhole {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 100%;
+            }
+            img, iframe {
+                max-width: 100%;
+                height: auto;
+            }
+            main h2 {
+                text-align: center;
+            }
+            body{
+                max-width: 100%;
+                font-size: 1em;
+        }
+    }
+        .start, .start2, .vailtitle, .jacksonholetitle {text-align: center;}
+        .start, .start2{
+            margin: 20px;
+        }
+
+        .lab, .greek, .bristol, .vail2, .jacksonhole2{
             display: flex;
             justify-content: space-between;
             margin: 20px;
             
         }
+        .lab, .bristol, .jacksonhole{
+            background-color: lightblue;
+            padding: 40px;
+            border-radius: 20px;
+            border: 4px solid white;
+
+        }
+        .greek, .vail{
+            background-color: rgb(103, 186, 214);
+            padding: 40px;
+            border-radius: 20px;
+            border: 4px solid white;
+        }
+        .vail, .jacksonhole{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+        .vail2 div, .jacksonhole2 div {
+            margin: 10px;
+            max-width: 100%;
+        }
+        .greek div, .lab div, .bristol div {
+            margin: 20px;
+        }
+        .vail img, .jacksonhole iframe, .vail iframe, .jacksonhole img {
+                max-width: 100%;
+                }
     </style>
 </head>
 <body>
@@ -71,30 +124,56 @@
         </div>
     </div>
 
-    <h3><u>Bristol Mountain</u></h3>
-    This mountain is a bit farther than the other too, but worth the drive. This mountain is in Rochester NY and around an hour and 15 minutes away from Syracuse.  This mountain is perfect for someone who has some experience In snowboarding but also is still learning. If you are interested in learning how to ride the terrain park, Bristol offers 3 different locations to practice on the mountains, and they host a yearly park jam where you can either compete or watch other people perform their best tricks. Bristol has 6 different lifts located on the mountain and 39 trails. If you are also looking to save money, every day after 3:30pm Bristol offers a Twilight ticket for only $35 dollars and gives you access to the mountain till close.<br>
-    <img src="images/bristol-mountain.jpeg" alt="Bristol Mountain" ><br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11720.144792614637!2d-77.41306555806973!3d42.74528636660492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d1170f90be205f%3A0xcf11c7a3576fb4cc!2sBristol%20Mountain%20Ski%20Resort!5e0!3m2!1sen!2sus!4v1649184693079!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <Div class="bristol">
+        <Div>
+            <h3><u>Bristol Mountain</u></h3>
+            This mountain is a bit farther than the other too, but worth the drive. This mountain is in Rochester NY and around an hour and 15 minutes away from Syracuse.  This mountain is perfect for someone who has some experience In snowboarding but also is still learning. If you are interested in learning how to ride the terrain park, Bristol offers 3 different locations to practice on the mountains, and they host a yearly park jam where you can either compete or watch other people perform their best tricks. Bristol has 6 different lifts located on the mountain and 39 trails. If you are also looking to save money, every day after 3:30pm Bristol offers a Twilight ticket for only $35 dollars and gives you access to the mountain till close.<br>
+        </Div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11720.144792614637!2d-77.41306555806973!3d42.74528636660492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d1170f90be205f%3A0xcf11c7a3576fb4cc!2sBristol%20Mountain%20Ski%20Resort!5e0!3m2!1sen!2sus!4v1649184693079!5m2!1sen!2sus" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </Div>
 
+    <div class="start2">
     <h2><u>Favorite Mountains Located in The United States</u></h3>
     Outside of Syracuse, there are many different mountains to explore. Two mountains that I found to be the best and my favorite are Vail and Jackson Hole. Both mountains are more advance but have great training lessons offered if you were looking to learn there.
+    </div>
     
-    <h3><u>Vail Mountain</u></h3>
-    Vail is located in the Rocky Mountains of Colorado and is around 2 hours out of Denver. Vail is known for being one of the best mountains in the country due to its size and the amount of snow that falls every year. The mountains are spread out over 5 different faces and offer up to 273 different trails to explore. They also have 30 different lifts and 2 gondolas to get you around the mountain. While exploring the mountain you will be able to find many different lodges and restaurants scattered around the faces. The mountain is located in vail village which has all sorts of things to do as well as a great nightlife to enjoy after a long day of snowboarding. If you are looking for more of a challenge or just like to adventure, I highly recommend checking Vail out<br>
-    <img src="images/vail-mountain.jpeg" alt="Vail Mountain" ><br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12295.740462288715!2d-106.36372645944346!3d39.60614407147981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a7060c630dbdb%3A0xa7c2cf2d4b45ada2!2sVail%20Ski%20Resort!5e0!3m2!1sen!2sus!4v1649184798812!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="vail">
+        <div class="vailtitle">
+            <h3><u>Vail Mountain</u></h3>
+            Vail is located in the Rocky Mountains of Colorado and is around 2 hours out of Denver. Vail is known for being one of the best mountains in the country due to its size and the amount of snow that falls every year. The mountains are spread out over 5 different faces and offer up to 273 different trails to explore. They also have 30 different lifts and 2 gondolas to get you around the mountain. While exploring the mountain you will be able to find many different lodges and restaurants scattered around the faces. The mountain is located in vail village which has all sorts of things to do as well as a great nightlife to enjoy after a long day of snowboarding. If you are looking for more of a challenge or just like to adventure, I highly recommend checking Vail out<br>
+        </div>
+        <div class="vail2">
+            <div>
+                <img src="images/vail-mountain.jpeg" alt="Vail Mountain"><br>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12295.740462288715!2d-106.36372645944346!3d39.60614407147981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876a7060c630dbdb%3A0xa7c2cf2d4b45ada2!2sVail%20Ski%20Resort!5e0!3m2!1sen!2sus!4v1649184798812!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
 
-    <h3><u>Jackson Hole Mountain</u></h3>
-    Jackson hole is very similar to vail but is in the neighboring state, Wyoming. Jackson Hole is mostly known for its extreme summit drop where professionals try to take it on every day. Jackson Hole has around 130 trails with 13 different lifts to explore. Similar to vail you will find many different lodges and restaurants scattered around the mountain. Id recommends this mountain for the more skilled snowboarders as it has a lot more black diamonds and double black diamonds compared to the average mountains. If you are ever in the area I highly recommend that you check it out, and even if you aren't the best snowboarder it's still a site to see!<br>
-    <img src="images/jacksonhole-mountain.jpeg" alt="Jackson Hole Mountain" ><br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11559.648827777411!2d-110.83667305768677!3d43.58754496597608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a42cea96879%3A0x7f76789e3b981e38!2sJackson%20Hole%20Mountain%20Resort!5e0!3m2!1sen!2sus!4v1649184870571!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="jacksonhole">
+        <div class="jacksonholetitle">
+            <h3><u>Jackson Hole Mountain</u></h3>
+            Jackson hole is very similar to vail but is in the neighboring state, Wyoming. Jackson Hole is mostly known for its extreme summit drop where professionals try to take it on every day. Jackson Hole has around 130 trails with 13 different lifts to explore. Similar to vail you will find many different lodges and restaurants scattered around the mountain. Id recommends this mountain for the more skilled snowboarders as it has a lot more black diamonds and double black diamonds compared to the average mountains. If you are ever in the area I highly recommend that you check it out, and even if you aren't the best snowboarder it's still a site to see!<br>
+        </div>
+        <div class="jacksonhole2">
+            <div>
+                <img src="images/jacksonhole-mountain.jpeg" alt="Jackson Hole Mountain"><br>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11559.648827777411!2d-110.83667305768677!3d43.58754496597608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a42cea96879%3A0x7f76789e3b981e38!2sJackson%20Hole%20Mountain%20Resort!5e0!3m2!1sen!2sus!4v1649184870571!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
 </main>
 </body>
 <footer>
     <h3>Citations</h3>
     <a href="https://commons.wikimedia.org/wiki/File:Vail_front_side.jpg"> Dbenbenn .</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons<br>
-
-    <a href="https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bristol_Mountain_Ski_Resort_trails.jpg">meg colombo from Finger Lakes, NY, USA</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons<br>
 
     <a href="https://www.flickr.com/photos/titusjon/1583503342">jon.t</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY 2.0</a>, via Creative Commons<br>
 </footer>

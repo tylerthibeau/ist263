@@ -4,7 +4,7 @@ main {
     margin-right: 20px;
     background-color: lightgray;
     font-size: 1em;
-
+    
 }
 
 .intro {
@@ -39,7 +39,11 @@ main h1, main h2, main h3, header h1 {
 main {
     font-family: 'Roboto', sans-serif;
 }
-
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
 
 header {font-size: 2em;}
 @media only screen and (max-width: 1000px) {
@@ -62,3 +66,23 @@ header {font-size: 2em;}
         text-align:  center;
     }
 }
+
+
+  
+  main, .intro {
+      background: linear-gradient(-45deg, #ffffff,  #00bbff);
+      background-size: 400% 400%;
+      animation: gradient 6s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
